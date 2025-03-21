@@ -36,7 +36,6 @@
 # Cities="jaranwala faisalabad lahore"
 # print(Cities[0:1].upper() + Cities[1:9], Cities[10:11].upper()+Cities[11:20], Cities[21:22].upper()+Cities[22:])
 
-
 # Cities="jaranwala faisalabad lahore"
 # print(Cities[0:1].lower() + Cities[1:9].upper(), Cities[10:11].lower()+Cities[11:20].upper(), Cities[21:22].lower()+Cities[22:].upper())
 
@@ -102,6 +101,69 @@
 
 # 10 cities first reverse them and then replace first and last later are small
 
+# ls=["lahore", "karachi","peshawar","islamabad","faisalabad","gujranwala","okara","kashmir","shahdra","sahiwal"]
+# lp=[]
+# for cities in ls:
+#     p=cities[0:1].upper()+cities[1:-1].lower()+cities[-1:].upper()
+#     lp.insert(0,p)
+# print(lp)
 
 
+# for loop while loop 
+
+# ls=["karachi","jaranwala","faisalabad"]
+# for x in range(len(ls)):
+#     print(ls[x])
+
+# i=0
+# while i<len(ls)
+#     print(ls[i])
+#     i=i+1
+
+# for x in range(10):
+#     print(x)
+# for x in range(1,10):
+#     print(x)
+
+# for x in range(0,21,2):
+    # print(x)
+
+# list comprension
+
+# ls=[x for x in range(2,10,2)]
+# print(ls)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[]
+# for x in ls:
+#     if "a" in x:
+#         ls2.append(x)
+# print(ls2)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x for x in ls if "a" in x]
+# print(ls2)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# [print(x) for x in ls if "i" in x]
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x for x in ls if x!= "karachi"]
+# print(ls2)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x[0].upper() + x[1:] for x in ls]
+# print(ls2)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x.capitalize() for x in ls]
+# print(ls2) 
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x[0].upper() + x[1:-1].lower() + x[-1:].upper() for x in ls]
+# print(ls2)
+
+# ls=["karachi","jaranwala","faisalabad","kiwi"]
+# ls2=[x for x in ls if "F" in x]
+# print(ls2)
 
